@@ -19,5 +19,11 @@
 	        <property name="prefix" value="/WEB-INF/view/"/>
 	        <property name="suffix" value=".jsp"/>
 	</bean>
+	
+	<bean id="sample_dao" class="com.upd.dao.SampleDao">
+	</bean>
+	
+	<bean id="sample_service" class="com.upd.service.SampleService">
+	</bean>
 
 </beans>
